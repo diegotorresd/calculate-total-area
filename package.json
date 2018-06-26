@@ -1,0 +1,16 @@
+{
+  "name": "calculate-total-area",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register *.test.ts",
+    "build": "tsc calculateArea.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}
